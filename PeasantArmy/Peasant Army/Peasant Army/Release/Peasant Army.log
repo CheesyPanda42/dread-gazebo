@@ -1,0 +1,26 @@
+﻿Build started 9/16/2013 7:10:11 PM.
+     1>Project "A:\PeasantArmy\Peasant Army\Peasant Army\Peasant Army.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "A:\PeasantArmy\Peasant Army\Release\".
+       InitializeBuildStatus:
+         Creating "Release\Peasant Army.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(20): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>main.cpp(18): warning C4101: 'percent' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"A:\PeasantArmy\Peasant Army\Release\Peasant Army.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Peasant Army.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"A:\PeasantArmy\Peasant Army\Release\Peasant Army.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"A:\PeasantArmy\Peasant Army\Release\Peasant Army.lib" /MACHINE:X86 Release\main.obj
+         Generating code
+         Finished generating code
+         Peasant Army.vcxproj -> A:\PeasantArmy\Peasant Army\Release\Peasant Army.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"A:\PeasantArmy\Peasant Army\Release\Peasant Army.exe;#1" /manifest "Release\Peasant Army.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\Peasant Army.unsuccessfulbuild".
+         Touching "Release\Peasant Army.lastbuildstate".
+     1>Done Building Project "A:\PeasantArmy\Peasant Army\Peasant Army\Peasant Army.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.64
